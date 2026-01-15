@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EchoWave | Official Band Site</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">EchoWave</h1>
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#shows">Shows</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h2>Indie Sounds. Real Energy.</h2>
+    <p>Discover the music of EchoWave</p>
+    <a href="#media" class="btn">Explore Media</a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h2>About the Band</h2>
+    <p>
+      EchoWave is a fictional indie band blending alternative rock with modern
+      electronic influences. Formed in 2024, the band performs live across
+      festivals and private events.
+    </p>
+  </section>
+
+  <!-- Media -->
+  <section id="media" class="section">
+    <h2>Media Gallery</h2>
+
+    <div class="filter-buttons">
+      <button data-filter="all">All</button>
+      <button data-filter="live">Live</button>
+      <button data-filter="studio">Studio</button>
+    </div>
+
+    <div class="gallery">
+      <div class="gallery-item live">Live Photo 1</div>
+      <div class="gallery-item studio">Studio Photo 1</div>
+      <div class="gallery-item live">Live Photo 2</div>
+      <div class="gallery-item studio">Studio Photo 2</div>
+    </div>
+  </section>
+
+  <!-- Shows -->
+  <section id="shows" class="section">
+    <h2>Upcoming Shows</h2>
+    <ul class="shows-list">
+      <li>📍 12 Nov 2025 – Indie Fest, Singapore</li>
+      <li>📍 25 Nov 2025 – Private Event</li>
+      <li>📍 5 Dec 2025 – Downtown Music Hall</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h2>Book the Band</h2>
+    <form class="contact-form">
+      <label>
+        Name
+        <input type="text" required />
+      </label>
+
+      <label>
+        Email
+        <input type="email" required />
+      </label>
+
+      <label>
+        Message
+        <textarea required></textarea>
+      </label>
+
+      <button type="submit">Send Inquiry</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 EchoWave. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
